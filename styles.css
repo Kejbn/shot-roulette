@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #6c757d;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #6c757d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name-input, .join-button, .spin-button {
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.players, .result {
+    margin-top: 30px;
+    color: #6c757d;
+}
+
+.spin-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.join-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.name-input {
+    width: 200px;
+}
